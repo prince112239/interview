@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="cv" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="466,1026" sap2010:WorkflowViewState.IdRef="cv_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="cv" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="625.333333333333,466" sap2010:WorkflowViewState.IdRef="cv_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:p1="http://schemas.uipath.com/workflow/activities/ocr" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -72,13 +72,13 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="cv" sap:VirtualizedContainerService.HintSize="476,961.333333333333" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="cv" sap:VirtualizedContainerService.HintSize="376,270" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="89GE9/GfAEfBh2Jov8sMFN7n+wU1XZ4ugYqZgjXoxxgcPRniH7W53PuAHWCpEp5VaBVi+35cDdIyUEqYVeSr7w==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="052bb5df-50c6-44b4-a03d-ab45f0a83935" DisplayName="CV Screen Scope 'BODY'" sap:VirtualizedContainerService.HintSize="434,869.333333333333" sap2010:WorkflowViewState.IdRef="CVScope_4" Server="https://cv.uipath.com" Version="V3">
+    <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ApiKey="89GE9/GfAEfBh2Jov8sMFN7n+wU1XZ4ugYqZgjXoxxgcPRniH7W53PuAHWCpEp5VaBVi+35cDdIyUEqYVeSr7w==" CvMethod="ElementDetection, OCR" DesignTimeCacheId="052bb5df-50c6-44b4-a03d-ab45f0a83935" DisplayName="CV Screen Scope 'BODY'" sap:VirtualizedContainerService.HintSize="334,52.6666666666667" sap2010:WorkflowViewState.IdRef="CVScope_4" Server="https://cv.uipath.com" Version="V3">
       <p:CVScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -133,7 +133,7 @@
                 </ui:Target>
               </p:CvClickWithDescriptor.Target>
             </p:CvClickWithDescriptor>
-            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (128,13,626,44)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Google' (9,22,84,31)&quot;]" DesignTimeCacheId="052bb5df-50c6-44b4-a03d-ab45f0a83935" DesignTimeScaleFactor="1.5" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,166" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_4" InformativeScreenshot="3c616635b297fd8fbdb27e9b9e06b71a" Text="[&quot;tiger&quot;+  &quot;[k(enter)]&quot;]" Version="V3">
+            <p:CvTypeIntoWithDescriptor DeselectAfter="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (128,13,626,44)&quot; +&#xA;&quot;Anchor: Text 'Google' (9,22,84,31)&quot;]" DesignTimeCacheId="052bb5df-50c6-44b4-a03d-ab45f0a83935" DesignTimeScaleFactor="1.5" DisplayName="CV Type Into - InputBox" EmptyField="True" sap:VirtualizedContainerService.HintSize="400,166" sap2010:WorkflowViewState.IdRef="CvTypeIntoWithDescriptor_4" InformativeScreenshot="3c616635b297fd8fbdb27e9b9e06b71a" Text="[&quot;tiger&quot;+  &quot;[k(enter)]&quot;]" Version="V3">
               <p:CvTypeIntoWithDescriptor.DesignTimeDescriptor>
                 <uc:CvDescriptor>
                   <uc:CvDescriptor.Anchors>
@@ -160,6 +160,9 @@
           </Sequence>
         </ActivityAction>
       </p:CVScope.Body>
+      <p:CVScope.DesignTimeCache>
+        <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" />
+      </p:CVScope.DesignTimeCache>
       <p:CVScope.DesignTimeCacheContainer>
         <uc:CvCacheContainer>
           <uc:CvCacheContainer.Caches>
@@ -574,6 +577,13 @@
       <p:CVScope.UseLocalServer>
         <InArgument x:TypeArguments="x:Boolean" />
       </p:CVScope.UseLocalServer>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </p:CVScope>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,85.3333333333333" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;msf box added in cv&quot;]" />
   </Sequence>
 </Activity>
